@@ -1,0 +1,97 @@
+.accordion-general {
+  display: flex;
+  flex-direction: row;
+}
+.control-pane .dialog-target {
+  min-height: 800px;
+}
+.hausnummer-plz {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.allcolumns {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.each-and-everyitem {
+  margin-top: 20px;
+}
+.land {
+  margin-bottom: 46px;
+}
+#defaultdialog {
+  min-height: 800px;
+}
+.dialog-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.e-accordion .e-active {
+  background: rgb(216, 219, 219);
+}
+.e-accordion .e-acrdn-item .e-acrdn-header {
+  border: none;
+}
+.e-accordion
+  .e-acrdn-item.e-selected
+  > .e-acrdn-header
+  .e-acrdn-header-content {
+  font-weight: bold;
+  font-size: 16px;
+}
+.e-accordion .e-acrdn-item .e-acrdn-header .e-acrdn-header-content {
+  font-size: 16px;
+}
+.e-dialog .e-footer-content {
+  text-align: center;
+}
+.tabs-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.e-accordion .e-acrdn-item .e-acrdn-header .e-toggle-icon {
+  display: table;
+  font-size: 14px;
+  height: 40px;
+  min-height: 40px;
+  min-width: 24px;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+.e-accordion
+  .e-acrdn-item.e-selected
+  > .e-acrdn-header
+  .e-acrdn-header-content {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 25px;
+}
+.e-accordion .e-acrdn-item .e-acrdn-header .e-acrdn-header-content {
+  font-size: 16px;
+  margin-left: 25px;
+}
+#target {
+  background-color: #cfd8dc;
+  border: 3px solid #eceff1;
+  position: relative;
+  width: 20px;
+  text-align: center;
+  color: #920c87;
+  font-size: 10px;
+}
+.e-btn-sb-icon {
+  font-family: "btn-icon" !important;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
